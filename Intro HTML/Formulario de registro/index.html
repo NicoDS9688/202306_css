@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+</head>
+
+<body>
+    <h1>Formulario de registro</h1>
+        <h3>Nombre: <input type="text"></h>
+        <h3>Apellido: <input type="text"></h3>
+        <h3>Email: <input type="email"></h3>
+        <h3>Contraseña: <input type="password"></h3>
+        <h3>Confirmar contraseña: <input type="password"></h3>
+        <h3>Fecha de nacimiento: <input type="date"></h3>
+        <h3>Género:</h3>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male"><strong>Masculino</strong></label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female"><strong>Femenino</strong></label>
+        <input type="radio" name="gender" value="nonBinary" id="nonBinary">
+        <label for="nonBinary"><strong>No binario</strong></label>
+        <input type="radio" name="gender" value="skip" id="skip">
+        <label for="skip"><strong>Prefiero no decirlo</strong></label>
+        <br>
+        <h4>Una pequeña descripción sobre tu persona:</h4>
+        <textarea name="description" cols="20" rows="5"></textarea>
+        <br>
+        <h4>Lenguaje favorito: <select name="language">
+                <option>Javascript</option>
+                <option>Python</option>
+                <option>PHP</option>
+                <option>SQL</option>
+                <option>Java</option>
+            </select></h4>
+        <input type="checkbox" name="accept" id="accept">
+        <label for="accept">Si, me gustaría recibir actualizaciones periódicas</label>
+        <br>
+        <br>
+        <button type="submit">Crear cuenta</button>
+
+</body>
+
+</html>
