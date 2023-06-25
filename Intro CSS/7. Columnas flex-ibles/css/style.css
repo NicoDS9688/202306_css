@@ -1,0 +1,42 @@
+.col {
+    background-color: red;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    flex: 1;
+    margin: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 5px solid;
+}
+
+.col-2 {
+    background-color: red;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    flex: 2;
+    margin: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 5px solid;
+}
+
+.col-3 {
+    background-color: red;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    flex: 3;
+    margin: 5px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    border: 5px solid;
+}
+
+.row {
+    display: flex;
+}
