@@ -1,0 +1,68 @@
+* {
+    font-family: cursive;
+}
+
+.container {
+    width: 700px;
+    margin-left: 200px;
+    border: 3px solid #17a2b8;
+}
+
+.top {
+    height: 100px;
+    width: auto;
+    background-color: #17a2b8;
+
+}
+
+.picContainer {
+    height: 100px;
+    width: 100px;
+    border: 3px solid #6fbbc7;
+    border-radius: 60px;
+    padding: 4px;
+    background-color: white;
+    position: absolute;
+    top: 60px;
+    left: 230px;
+}
+
+.profilePic {
+    height: 100px;
+    width: 100px;
+}
+
+.name {
+    margin-top: 60px;
+}
+
+.mapMarker {
+    height: 25px;
+    margin-right: 15px;
+}
+
+.gear {
+    height: 20px;
+    margin-right: 10px;
+}
+
+.location {
+    display: inline-flex;
+    align-items: center;
+    margin-top: -30px;
+}
+
+footer {
+    display: inline-flex;
+    align-items: center;
+}
+
+.content {
+    width: 680px;
+    padding-left: 20px;
+    border: 3px solid #6fbbc7;
+    margin-left: 200px;
+    border-top-color: #17a2b8;
+    display: flex;
+    flex-direction: column;
+}
